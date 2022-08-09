@@ -1,0 +1,43 @@
+.continer{
+
+    border: 2px blue solid;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.secondContiner{
+    
+    display: flex;
+    flex-direction: column; 
+    align-content:space-around ;  
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    top:26%;   
+    left: 25%; 
+    border: 2px red solid;
+    width: 40%;
+    height: 300px;
+      padding: 20px; /* this */
+
+}
+.img_dec{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.decription{
+    padding-top: 2%;
+    padding-right: 10%;
+    text-align: right;
+
+}
+
+.car_img{
+    width: 35%;
+    height: 45%;
+    padding-top: 5%;
+
+}
